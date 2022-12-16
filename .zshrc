@@ -25,6 +25,7 @@ alias ai="sudo apt install"
 alias au="sudo apt update && sudo apt upgrade"
 alias ls="ls --color"
 
+export EDITOR="emacs"
 
 zstyle ':completion:*' auto-description 'specify: %d'
 zstyle ':completion:*' completer _expand _complete _correct _approximate
